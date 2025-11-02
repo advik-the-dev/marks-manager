@@ -16,6 +16,7 @@ while True:
             exit_flag = True
             break
         else:
+            sub = sub.lower()
             marks = float(input(f"Enter marks scored in {sub} by {student}:"))
             tot = float(input(f"Enter maximum marks for {sub} exam: "))
             student_score[sub] = (marks, tot)   
